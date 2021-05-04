@@ -220,12 +220,23 @@ footer .social-icons {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  
 }
 
 footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 10px;
+}
+
+footer .social-icons p a {
+  width: 30px;
+  height: 30px;
+  color: white;
+  background-color: #517258;
+  border-radius: 50%;
+  text-align: center;
 }
 
 footer p {
